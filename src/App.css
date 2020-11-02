@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.title {
+  display: flex;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.details {
+  display: flex;
+}
+
+.album {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.album_data{
+  align-items: center;
+  justify-items: center;
+  padding-left: 50px;
+}
