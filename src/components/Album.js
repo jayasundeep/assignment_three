@@ -33,7 +33,9 @@ class Album extends React.Component {
                     <div className="details">
                         <p>Price: </p> <p>{this.props.item["im:price"].label}</p>
                     </div>
-                    
+                    <div className="details">
+                        <p>Release Date: </p> <p>{this.props.item["im:releaseDate"].attributes.label}</p>
+                    </div>
                 </div>
             </div>
         )
